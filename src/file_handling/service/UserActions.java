@@ -9,7 +9,11 @@ public enum UserActions {
     DELETE_FILE("5"),
     GO_IN_FOLDER("6"),
     BACK_FOLDER("7"),
-    EXIT("8");
+    READ_FILE("8"),
+    WRITE_FILE("9"),
+    COPY_FILE("10"),
+    COPY_BENCHMARK("11"),
+    EXIT("12");
 
     private String value;
 
